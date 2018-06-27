@@ -7,6 +7,7 @@
 		<sequence>
 			<module name='Magento_Cms'/>
 			<module name='Magento_Theme'/>
+			<module name='Plazathemes_Newsletterpopup'/>
 		</sequence>
 	</module>
 </config>
