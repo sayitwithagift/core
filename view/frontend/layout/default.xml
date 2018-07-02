@@ -3,6 +3,10 @@
 	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
 	xsi:noNamespaceSchemaLocation='urn:magento:framework:View/Layout/etc/page_configuration.xsd'
 >
+<!-- 2018-07-02
+"Fix the Facebook share button on product pages (Magento 2, PlazaThemes Grand theme)"
+https://github.com/sayitwithagift/core/issues/2 -->
+	<head><css src='SayItWithAGift_Core::main.css'/></head>
 <!-- 2018-06-27
 "Show the newsletter popup on any frontend page (Magento 2, PlazaThemes Grand design theme)":
 https://github.com/sayitwithagift/core/issues/1 -->
