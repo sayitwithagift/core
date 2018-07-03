@@ -19,5 +19,15 @@ https://github.com/sayitwithagift/core/issues/1 -->
 				template='Plazathemes_Newsletterpopup::newsletterpopup.phtml'
 			/>
 		</referenceContainer>
+<!-- 2018-07-04 This block should have `cacheable='false'` -->
+		<referenceContainer name='page.messages'>
+			<block
+				as='messages'
+				cacheable='false'
+				class='Magento\Framework\View\Element\Messages'
+				name='messages'
+				template='Magento_Theme::messages.phtml'
+			/>
+		</referenceContainer>		
 	</body>
 </page>
