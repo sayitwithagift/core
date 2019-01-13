@@ -19,7 +19,14 @@ https://github.com/sayitwithagift/core/issues/1 -->
 				template='Plazathemes_Newsletterpopup::newsletterpopup.phtml'
 			/>
 		</referenceContainer>
-<!-- 2018-07-04 This block should have `cacheable='false'` -->
+<!-- 2018-07-04 This block should have `cacheable='false'`
+2019-01-14
+I have disabled this block because it resets the `Cache-Control` HTTP Header
+from `max-age=1209600, public, s-maxage=1209600`
+to `max-age=0, must-revalidate, no-cache, no-store`
+https://www.upwork.com/messages/rooms/room_0583dcda663e28e3a4b7f56ad692a269/story_311417fd7672f353ba464a604abfe450
+-->
+<!--
 		<referenceContainer name='page.messages'>
 			<block
 				as='messages'
@@ -29,5 +36,6 @@ https://github.com/sayitwithagift/core/issues/1 -->
 				template='Magento_Theme::messages.phtml'
 			/>
 		</referenceContainer>		
+-->
 	</body>
 </page>
